@@ -1,17 +1,19 @@
 {
   "name": "ember-aria-checkbox",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "An Ember Checkbox addon widget based on the WAI-ARIA authoring practices.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "aria",
+    "checkbox"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Rajasegar Chandran",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/rajasegar/ember-aria-checkbox",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -53,6 +55,7 @@
     "node": ">= 4"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "https://rajasegar.github.io/ember-aria-checkbox"
   }
 }
