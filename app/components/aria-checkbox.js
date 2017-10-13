@@ -1,0 +1,1 @@
+export { default } from 'ember-aria-checkbox/components/aria-checkbox';

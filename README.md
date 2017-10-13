@@ -1,13 +1,10 @@
 # ember-aria-checkbox
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember Checkbox addon widget based on the WAI-ARIA authoring practices.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-aria-checkbox`
-* `npm install`
-* `bower install`
+* `ember install ember-aria-checkbox`
 
 ## Running
 
