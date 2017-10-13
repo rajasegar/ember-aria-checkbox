@@ -24,9 +24,9 @@ export default Component.extend({
   focus: false,
   checked: false,
   tabindex: 0,
-  keyDown(event) {
+  keyDown(e) {
     let flag = false;
-    switch(event.keyCode) {
+    switch(e.keyCode) {
     case KEYCODES.SPACE:
       this.toggleProperty('checked');
       flag = true;
@@ -36,8 +36,8 @@ export default Component.extend({
     }
 
     if(flag) {
-      event.stopPropagtion();
-      event.preventDefault();
+      e.stopPropagation();
+      e.preventDefault();
     }
 
   },
