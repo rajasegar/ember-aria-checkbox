@@ -28,6 +28,22 @@ Example Markup:
 {{#aria-checkbox}}Lettuce{{/aria-checkbox}}
 ```
 
+Default checked state:
+
+```hbs
+{{#aria-checkbox checked=true}}Lettuce{{/aria-checkbox}}
+```
+
+You can also pass in any model value to the checked state to reflect the checkbox state.
+
+```js
+this.set('isLettuce', true);
+```
+
+```hbs
+{{#aria-checkbox checked=isLettuce}}Lettuce{{/aria-checkbox}}
+```
+
 
 
 ## Running
