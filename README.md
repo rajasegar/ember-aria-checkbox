@@ -1,10 +1,34 @@
 # ember-aria-checkbox
 
+[![Build Status](https://travis-ci.org/rajasegar/ember-aria-checkbox.svg?branch=master)](https://travis-ci.org/rajasegar/ember-aria-checkbox) 
+[![Coverage Status](https://coveralls.io/repos/github/rajasegar/ember-aria-checkbox/badge.svg?branch=master)](https://coveralls.io/github/rajasegar/ember-aria-checkbox?branch=master)
+[![npm version](http://img.shields.io/npm/v/ember-aria-checkbox.svg?style=flat)](https://npmjs.org/package/ember-aria-checkbox "View this project on npm")
+[![dependencies Status](https://david-dm.org/rajasegar/ember-aria-checkbox/status.svg)](https://david-dm.org/rajasegar/ember-aria-checkbox)
+[![devDependencies Status](https://david-dm.org/rajasegar/ember-aria-checkbox/dev-status.svg)](https://david-dm.org/rajasegar/ember-aria-checkbox?type=dev)
+[![EmberObserver](http://emberobserver.com/badges/ember-aria-checkbox.svg?branch=master)](http://emberobserver.com/addons/ember-aria-checkbox)
+
+
 An Ember Checkbox addon widget based on the WAI-ARIA authoring practices.
+Fore more info, visit the [page](https://www.w3.org/TR/wai-aria-practices-1.1/#checkbox)
+
+## Demo
+
+[Demo](http://rajasegar.github.io/ember-aria-checkbox/)
+
+
 
 ## Installation
 
 * `ember install ember-aria-checkbox`
+
+## Usage
+Example Markup:
+
+```hbs
+{{#aria-checkbox}}Lettuce{{/aria-checkbox}}
+```
+
+
 
 ## Running
 
