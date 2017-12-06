@@ -1,0 +1,13 @@
+@startuml
+"Ember.Component" <|-- ariacheckbox
+
+ariacheckbox : focus
+ariacheckbox : chec ked
+ariacheckbox : tabindex
+
+ariacheckbox : keyDown()
+ariacheckbox : click()
+ariacheckbox : focusIn()
+ariacheckbox : focusOut()
+
+@enduml
