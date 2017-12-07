@@ -1,17 +1,11 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { set, get, computed } from '@ember/object';
 import layout from '../templates/components/aria-checkbox';
 
 const KEYCODES = {
   'RETURN': 13,
   'SPACE': 32
 };
-
-const {
-  Component,
-  computed,
-  get,
-  set
-} = Ember;
 
 export default Component.extend({
   layout,
