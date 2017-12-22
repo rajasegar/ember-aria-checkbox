@@ -1,13 +1,15 @@
 @startuml
-"Ember.Component" <|-- ariacheckbox
+"Ember.Component" <|-- ARIACheckbox
 
-ariacheckbox : focus
-ariacheckbox : chec ked
-ariacheckbox : tabindex
+class ARIACheckbox {
+  focus : Boolean
+  checked : Boolean
+  tabindex : Integer
 
-ariacheckbox : keyDown()
-ariacheckbox : click()
-ariacheckbox : focusIn()
-ariacheckbox : focusOut()
+  keyDown()
+  click()
+  focusIn()
+  focusOut()
+}
 
 @enduml
