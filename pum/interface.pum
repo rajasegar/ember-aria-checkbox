@@ -1,0 +1,3 @@
+@startuml
+[Checkbox] --> checked
+@enduml
