@@ -11,6 +11,9 @@
 An Ember Checkbox addon widget based on the WAI-ARIA authoring practices.
 Fore more info, visit the [page](https://www.w3.org/TR/wai-aria-practices-1.1/#checkbox)
 
+### Tutorial
+There is also a tutorial available [here](http://hangaroundtheweb.com/2018/02/how-to-create-an-accessible-checkbox-component-in-ember/) to learn how to create this addon from scratch.
+
 ### Class Diagram
 ![Class Diagram](https://raw.githubusercontent.com/rajasegar/ember-aria-checkbox/master/pum/class-diagram.png)
 
