@@ -1,6 +1,6 @@
 {
   "name": "ember-aria-checkbox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An Ember Checkbox addon widget based on the WAI-ARIA authoring practices.",
   "keywords": [
     "ember-addon",
