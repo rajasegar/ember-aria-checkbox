@@ -21,7 +21,8 @@
     "start": "ember server",
     "test": "ember test",
     "coverage": "COVERAGE=true ember t",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "deploy": "npm version && git push && npm publish"
   },
   "dependencies": {
     "ember-cli-babel": "^6.16.0",
